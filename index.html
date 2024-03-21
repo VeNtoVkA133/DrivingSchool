@@ -1,54 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="./homepage.js"></script>
-    <link rel="stylesheet" href="./style.css">
+    <title>Главная</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
-
 <body>
-    <div class="header">
-        <div class="header-txt">
-            <span class="header-txt-text1">Корвет</span>
-            <span class="header-txt-text2">Автолицей в Подольске</span>
-        </div>
-        <div class="header-list">
-            <img class="header-list-img" src="./Images/Vector 1.svg" alt="IMGdelimiter" width="744" height="64">
-            <ul class="header-list-ul">
-                <li class="header-list-li1" style="margin-left: -28px;">Главная</li>
-                <li class="header-list-li2" style="margin-left: 84px;"> <a href="#">акция</a> </li>
-                <li class="header-list-li3" style="margin-left: 92px;"> <a href="#">цены</a> </li>
-                <li class="header-list-li4" style="margin-left: 97px;"> <a href="#">расписание</a> </li>
-                <li class="header-list-li5" style="margin-left: 101px;"> <a href="#">обучение</a> </li>
-                <li class="header-list-li6" style="margin-left: 300px;"> <a href="#">геолокация</a> </li>
-            </ul>
-        </div>
-    </div>
-    <div class="preview">
-        <div class="preview-description">
-            <p class="preview-description-txt">Автошкола «Автолицей Корвет» в городе Подольск, приглашает всех
-                желающих
-                научиться мастерству управления автомобилем, а так же тех, кто хочет повысить свою водительскую
-                квалификацию.</p>
-            <img class="preview-description-img" src="./Images/HPcar.png" alt="IMGcar" width="864" height="436">
-        </div>
-        <div class="preview-advantages">
-            <span class="preview-advantages-text">Наши преимущества</span>
-            <div class="preview-advantages-buttons">
-                <button class="preview-advantages-btn"><img class="preview-advantages-btn-sdp1"
-                        src="./Images/Speed1.png" alt="IMGspeed1" width="171.62" height="179.67"></button>
-                <button class="preview-advantages-btn"><img class="preview-advantages-btn-sdp2"
-                        src="./Images/Speed2.png" alt="IMGspeed2" width="171.62" height="179.67"></button>
-                <button class="preview-advantages-btn"><img class="preview-advantages-btn-sdp3"
-                        src="./Images/Speed3.png" alt="IMGspeed3" width="171.62" height="179.67"></button>
-                <button class="preview-advantages-btn"><img class="preview-advantages-btn-sdp4"
-                        src="./Images/Speed4.png" alt="IMGspeed4" width="171.62" height="179.67"></button>
-            </div>
-        </div>
-    </div>
+    <nav class="mainpage-menu">
+        <article class="mainpage-menu-text">
+            <h2>Корвет</h2>
+            <span>Автолицей в Подольске</span>
+        </article>
+        <ul class="mainpage-menu-list">
+            <li class="mainpage-menu-list-li"><a class="" href="#">главная</a></li>
+            <li class="mainpage-menu-list-li"><a class="" href="#">акция</a></li>
+            <li class="mainpage-menu-list-li"><a class="" href="./price.html">цены</a></li>
+            <li class="mainpage-menu-list-li"><a class="" href="./schedule.html">расписание</a></li>
+            <li class="mainpage-menu-list-li"><a class="" href="./education.html">обучение</a></li>
+            <li class="mainpage-menu-list-li"><a class="" href="./geolocation.html">геолокация</a></li>
+        </ul>
+    </nav>
+    <figure class="mainpage-common">
+        <p class="mainpage-common-description">Автошкола «Автолицей Корвет» в городе Подольск, приглашает всех желающих научиться мастерству управления автомобилем, а так же тех, кто хочет повысить свою водительскую квалификацию.</p>
+        <img src="./Images/HPcar.png" alt="carimg" width="901px" height="455px">
+        <span class="mainpage-common-advantages">Наши преимущества</span>
+        <figure class="mainpage-common-speeds">
+            <img class="maimpage-common-speeds-speed" src="./Images/Speed1.png" alt="speed1" width="171px" height="179px">
+            <img class="maimpage-common-speeds-speed" src="./Images/Speed2.png" alt="speed2" width="171px" height="179px">
+            <img class="maimpage-common-speeds-speed" src="./Images/Speed3.png" alt="speed3" width="171px" height="179px">
+            <img class="maimpage-common-speeds-speed" src="./Images/Speed4.png" alt="speed4" width="171px" height="179px">
+        </figure>
+    </figure>
 </body>
-
 </html>
