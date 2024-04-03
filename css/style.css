@@ -1,1 +1,175 @@
-/*# sourceMappingURL=style.css.map */
+.mainpage-menu {
+  width: 1720px;
+  margin: 0 auto;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+.mainpage-menu-text {
+  padding-top: 18px;
+  padding-left: 47px;
+  padding-bottom: 29px;
+  box-sizing: border-box;
+}
+.mainpage-menu-text-title {
+  width: 236px;
+  text-align: center;
+  margin: 0;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+}
+.mainpage-menu-text-description {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+  margin: 0;
+}
+.mainpage-menu-list {
+  display: flex;
+  width: 1200px;
+  list-style-type: none;
+  padding-top: 33px;
+  justify-content: space-between;
+  padding-right: 61px;
+  box-sizing: border-box;
+}
+.mainpage-menu-list-li {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: uppercase;
+}
+.mainpage-menu-list-li > a {
+  color: #ffffff;
+  text-decoration: none;
+  border-left: 0.5px solid #ffffff;
+  padding-left: 25px;
+}
+.mainpage-menu-list-li:first-child > a {
+  border-left: none;
+}
+
+.card {
+  background-color: #000000;
+  display: none;
+  width: 500px;
+  height: 300px;
+}
+
+.mainpage-common {
+  width: 1720px;
+  margin: 0 auto;
+  background: url(../Images/bg-img.png), linear-gradient(#282828, #0F0F0F);
+  background-repeat: no-repeat;
+  position: relative;
+}
+.mainpage-common-description {
+  width: 830px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 44px;
+  color: #ffffff;
+  margin: 0 0 300px;
+  padding-top: 76px;
+  padding-left: 141px;
+  box-sizing: border-box;
+}
+.mainpage-common-carimg {
+  width: 900px;
+  height: 455px;
+  position: absolute;
+  top: 150px;
+  left: 735px;
+}
+.mainpage-common-advantages {
+  display: block;
+  text-align: end;
+  padding-right: 385px;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 58px;
+  color: #ff0900;
+  margin-bottom: 61px;
+}
+.mainpage-common-speeds {
+  display: flex;
+  justify-content: end;
+  margin: 0;
+  padding-bottom: 68px;
+  margin-right: 155px;
+}
+.mainpage-common-speeds-speedimg:nth-child(2) {
+  margin: 0 70px;
+}
+.mainpage-common-speeds-speedimg:last-child {
+  margin: 0 0 0 70px;
+}
+
+.pricepage-menu {
+  width: 1720px;
+  margin: 0 auto;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+.pricepage-menu-text {
+  padding-top: 43px;
+  padding-left: 80px;
+  padding-bottom: 42px;
+  box-sizing: border-box;
+}
+.pricepage-menu-text-title {
+  width: 400px;
+  text-align: center;
+  margin: 0;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 58px;
+}
+.pricepage-menu-list {
+  display: flex;
+  width: 1200px;
+  list-style-type: none;
+  padding-top: 47px;
+  justify-content: space-between;
+  padding-right: 56px;
+  box-sizing: border-box;
+}
+.pricepage-menu-list-li {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: uppercase;
+}
+.pricepage-menu-list-li > a {
+  color: #ffffff;
+  text-decoration: none;
+  border-left: 0.5px solid #ffffff;
+  padding-left: 43px;
+}
+.pricepage-menu-list-li:first-child > a {
+  border-left: none;
+}
+
+.pricepage-common {
+  display: flex;
+}
+.pricepage-common-category-a {
+  display: block;
+  background-color: black;
+  color: #ffffff;
+}
+.pricepage-common-category-a-title {
+  margin: 39px 80px 0 80px;
+}
+.pricepage-common-category-a-description {
+  margin-top: 0 111px 0 111px;
+}
+.pricepage-common-category-a-text {
+  display: block;
+}/*# sourceMappingURL=style.css.map */

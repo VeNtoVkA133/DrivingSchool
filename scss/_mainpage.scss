@@ -1,0 +1,127 @@
+.mainpage-menu {
+    width: 1720px;
+    margin: 0 auto;
+    background-color:$colorbgmenu;
+    display: flex;
+    justify-content: space-between;
+
+    &-text {
+        padding-top: 18px;
+        padding-left: 47px;
+        padding-bottom: 29px;
+        box-sizing: border-box;
+
+        &-title {
+            width: 236px;
+            text-align: center;
+            margin: 0;
+            color: $colortext;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 58px;
+        }
+
+        &-description {
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 29px;
+            color: $colortext;
+            margin: 0;
+        }
+    }
+
+    &-list {
+        display: flex;
+        width: 1200px;
+        list-style-type: none;
+        padding-top: 33px;
+        justify-content: space-between;
+        padding-right: 61px;
+        box-sizing: border-box;
+
+        &-li {
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 29px;
+            text-transform: uppercase;
+
+            &>a {
+                color: $colortext;
+                text-decoration: none;
+                border-left: 0.5px solid $colortext;
+                padding-left: 25px;
+            }
+
+            &:first-child {
+                &>a {
+                    border-left: none;
+                }
+            }
+        }
+    }
+}
+
+.card {
+    background-color: #000000;
+    display: none;
+    width: 500px;
+    height: 300px;
+}
+
+.mainpage-common {
+    width: 1720px;
+    margin: 0 auto; // центрирование
+    background: url(../Images/bg-img.png), linear-gradient(#282828, #0F0F0F);
+    background-repeat: no-repeat;
+    position: relative;
+
+    &-description {
+        width: 830px;
+        text-align: center;
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 44px;
+        color: #ffffff;
+        margin: 0 0 300px;
+        padding-top: 76px;
+        padding-left: 141px;
+        box-sizing: border-box; // как только используем padding
+    }
+
+    &-carimg {
+        width: 900px;
+        height: 455px;
+        position: absolute;
+        top: 150px;
+        left: 735px;
+    }
+
+    &-advantages {
+        display: block;
+        text-align: end;
+        padding-right: 385px;
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 58px;
+        color: #ff0900;
+        margin-bottom: 61px;
+    }
+
+    &-speeds {
+        display: flex;
+        justify-content: end;
+        margin: 0;
+        padding-bottom: 68px;
+        margin-right: 155px;
+
+        &-speedimg {
+            &:nth-child(2) {
+                margin: 0 70px;
+            }
+
+            &:last-child {
+                margin: 0 0 0 70px;
+            }
+        }
+    }
+}
